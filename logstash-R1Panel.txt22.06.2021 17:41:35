@@ -1,0 +1,161 @@
+03.06.2021 12:40:27: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	Message: Файл 'C:\Users\nechaev.kv\AppData\Roaming\AssemblyResolver.xml' не найден.
+	StackTrace:    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   в System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   в System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   в System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   в System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   в System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   в System.Xml.XmlTextReaderImpl.OpenUrl()
+   в System.Xml.XmlTextReaderImpl.Read()
+   в System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   в System.Xml.XmlDocument.Load(XmlReader reader)
+   в System.Xml.XmlDocument.Load(String filename)
+   в R1Panel.AssemblyResolver.ParseAssemblyResolverPath(String assemblyResolverPath)
+   в R1Panel.AssemblyResolver.GetAssemblyNameAssemblyPath()
+   в R1Panel.AssemblyResolver..ctor()
+   в R1Panel.App.OnStartup(UIControlledApplication application)
+03.06.2021 12:42:35: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	Message: Файл 'C:\Users\nechaev.kv\AppData\Roaming\AssemblyResolver.xml' не найден.
+	StackTrace:    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   в System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   в System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   в System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   в System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   в System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   в System.Xml.XmlTextReaderImpl.OpenUrl()
+   в System.Xml.XmlTextReaderImpl.Read()
+   в System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   в System.Xml.XmlDocument.Load(XmlReader reader)
+   в System.Xml.XmlDocument.Load(String filename)
+   в R1Panel.AssemblyResolver.ParseAssemblyResolverPath(String assemblyResolverPath)
+   в R1Panel.AssemblyResolver.GetAssemblyNameAssemblyPath()
+   в R1Panel.AssemblyResolver..ctor()
+   в R1Panel.App.OnStartup(UIControlledApplication application)
+03.06.2021 12:44:59: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	Message: Длина строки должна составлять один знак.
+	StackTrace:    в System.Convert.ToChar(String value, IFormatProvider provider)
+   в R1Panel.AssemblyResolver.Resolve()
+   в R1Panel.App.OnStartup(UIControlledApplication application)
+07.06.2021 13:48:50: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	Message: Не удалось загрузить файл или сборку "file:///C:\Users\nechaev.kv\AppData\Roaming\Autodesk\Revit\Addins\2020\Microsoft.Xaml.Behaviors.dll" либо одну из их зависимостей. Не удается найти указанный файл.
+	StackTrace:    в System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   в System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   в R1Panel.AssemblyResolver.Resolve()
+   в R1Panel.App.OnStartup(UIControlledApplication application)
+07.06.2021 14:13:25: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	Message: Не удалось загрузить файл или сборку "file:///C:\Users\nechaev.kv\AppData\Roaming\Autodesk\Revit\Addins\2020\Microsoft.Xaml.Behaviors.dll" либо одну из их зависимостей. Не удается найти указанный файл.
+	StackTrace:    в System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   в System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   в R1Panel.AssemblyResolver.Resolve()
+   в R1Panel.App.OnStartup(UIControlledApplication application)
+07.06.2021 14:21:06: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	Message: Не удалось загрузить файл или сборку "file:///C:\Users\nechaev.kv\AppData\Roaming\Autodesk\Revit\Addins\2020\Microsoft.Xaml.Behaviors.dll" либо одну из их зависимостей. Не удается найти указанный файл.
+	StackTrace:    в System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   в System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   в R1Panel.AssemblyResolver.Resolve()
+   в R1Panel.App.OnStartup(UIControlledApplication application)
+09.06.2021 12:35:40: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	Message: Не удалось загрузить файл или сборку "file:///C:\Users\nechaev.kv\AppData\Roaming\Autodesk\Revit\Addins\2019\NLog.dll" либо одну из их зависимостей. Не удается найти указанный файл.
+	StackTrace:    в System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   в System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   в R1Panel.AssemblyResolver.Resolve()
+   в R1Panel.App.OnStartup(UIControlledApplication application)
+16.06.2021 16:00:10: Version is :2019
+16.06.2021 16:20:18: Version is :2019
+17.06.2021 13:59:00: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	Message: Не удалось загрузить файл или сборку "file:///C:\Users\nechaev.kv\AppData\Roaming\Autodesk\Revit\Addins\2020\Checker.dll" либо одну из их зависимостей. Не удается найти указанный файл.
+	StackTrace:    в System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   в System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   в R1Panel.AssemblyResolver.Resolve()
+   в R1Panel.App.OnStartup(UIControlledApplication application)
+17.06.2021 14:03:39: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	Message: Не удалось загрузить файл или сборку "file:///C:\Users\nechaev.kv\AppData\Roaming\Autodesk\Revit\Addins\2020\Checker.dll" либо одну из их зависимостей. Не удается найти указанный файл.
+	StackTrace:    в System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   в System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   в R1Panel.AssemblyResolver.Resolve()
+   в R1Panel.App.OnStartup(UIControlledApplication application)
+22.06.2021 3:46:23: Exception: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в R1Panel.PluginLoadController.FillPanelWithPluginButtons(UIControlledApplication application, String tabName)
+   в R1Panel.App.Main(UIControlledApplication application)
+   в R1Panel.App.OnStartup(UIControlledApplication application)
+22.06.2021 3:51:15: Exception: System.UnauthorizedAccessException: Отказано в доступе по пути "C:\Users\nechaev.kv\AppData\Roaming\PluginsR1\Plugins\Plugins\0036\2020\2.0.0.0".
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   в System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   в System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   в System.Windows.Media.Imaging.BitmapImage.EndInit()
+   в R1Panel.PluginLoadController.FillPanelWithPluginButtons(UIControlledApplication application, String tabName)
+   в R1Panel.App.Main(UIControlledApplication application)
+   в R1Panel.App.OnStartup(UIControlledApplication application)
+22.06.2021 3:59:05: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	System.IO.FileNotFoundException: Не удалось загрузить файл или сборку "file:///C:\Users\nechaev.kv\AppData\Roaming\PluginsR1\LaunchAddin\Checker.dll" либо одну из их зависимостей. Не удается найти указанный файл.
+Имя файла: 'file:///C:\Users\nechaev.kv\AppData\Roaming\PluginsR1\LaunchAddin\Checker.dll'
+   в System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   в System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   в R1Panel.AssemblyResolver.Resolve()
+   в R1Panel.App.Main(UIControlledApplication application)
+
+Предупреждение: регистрация привязки сборок выключена.
+Чтобы включить регистрацию ошибок привязки сборок, установите значение параметра реестра [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) в 1.
+Примечание. Регистрация ошибок привязки сборок может привести к некоторому снижению производительности.
+Чтобы отключить эту функцию, удалите параметр реестра [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+22.06.2021 4:16:59: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	System.IO.FileNotFoundException: Не удалось загрузить файл или сборку "file:///C:\Users\nechaev.kv\AppData\Roaming\PluginsR1\LaunchAddin\Checker.dll" либо одну из их зависимостей. Не удается найти указанный файл.
+Имя файла: 'file:///C:\Users\nechaev.kv\AppData\Roaming\PluginsR1\LaunchAddin\Checker.dll'
+   в System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   в System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   в R1Panel.AssemblyResolver.Resolve()
+   в R1Panel.App.Main(UIControlledApplication application)
+
+Предупреждение: регистрация привязки сборок выключена.
+Чтобы включить регистрацию ошибок привязки сборок, установите значение параметра реестра [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) в 1.
+Примечание. Регистрация ошибок привязки сборок может привести к некоторому снижению производительности.
+Чтобы отключить эту функцию, удалите параметр реестра [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+22.06.2021 5:01:12: Failed to resolve assemblies from AssemblyResolver.xml. Exception occured.
+	System.IO.FileNotFoundException: Не удалось загрузить файл или сборку "file:///C:\Users\nechaev.kv\AppData\Roaming\PluginsR1\LaunchAddin\Checker.dll" либо одну из их зависимостей. Не удается найти указанный файл.
+Имя файла: 'file:///C:\Users\nechaev.kv\AppData\Roaming\PluginsR1\LaunchAddin\Checker.dll'
+   в System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   в System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   в System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   в R1Panel.AssemblyResolver.Resolve()
+   в R1Panel.App.Main(UIControlledApplication application)
+
+=== Информация о состоянии предварительной привязки ===
+Журнал: Привязка Where-ref. Место = C:\Users\nechaev.kv\AppData\Roaming\PluginsR1\LaunchAddin\Checker.dll
+Журнал: Appbase = file:///C:/Program Files/Autodesk/Revit 2020/
+Журнал: Initial PrivatePath = NULL
+Вызов сборки: (Unknown).
+===
+Журнал: данная привязка начинается в контексте загрузки LoadFrom.
+Предупреждение: собственный не будет проверен в контексте LoadFrom. Собственный образ будет проверен только в контексте загрузки по умолчанию, например, при помощи Assembly.Load().
+Журнал: используется файл конфигурации приложения: C:\Program Files\Autodesk\Revit 2020\Revit.exe.Config.
+Журнал: используется файл конфигурации главного узла: 
+Журнал: используется файл конфигурации компьютера из C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config.
+Журнал: попытка скачивания нового URL file:///C:/Users/nechaev.kv/AppData/Roaming/PluginsR1/LaunchAddin/Checker.dll.
+
